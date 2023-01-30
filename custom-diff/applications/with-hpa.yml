@@ -22,7 +22,9 @@ spec:
     syncOptions:
       - CreateNamespace=true  
    
-  ignoreDifferences:
+   
+   
+ignoreDifferences:
   - group: apps
     kind: Deployment
     jsonPointers:
